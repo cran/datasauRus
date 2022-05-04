@@ -1,4 +1,4 @@
-## ------------------------------------------------------------------------
+## -----------------------------------------------------------------------------
 library(datasauRus)
 if(requireNamespace("dplyr")){
   suppressPackageStartupMessages(library(dplyr))
@@ -13,13 +13,13 @@ if(requireNamespace("dplyr")){
     )
 }
 
-## ----fig.height=12, fig.width=9------------------------------------------
+## ----fig.height=12, fig.width=9-----------------------------------------------
 if(requireNamespace("ggplot2")){
   library(ggplot2)
-  ggplot(datasaurus_dozen, aes(x=x, y=y, colour=dataset))+
+  ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
     geom_point()+
     theme_void()+
     theme(legend.position = "none")+
-    facet_wrap(~dataset, ncol=3)
+    facet_wrap(~dataset, ncol = 3)
 }
 
