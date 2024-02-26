@@ -15,9 +15,27 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/box_plots.R
 "box_plots"
+
+#' Box plot data
+#'
+#' This dataset is the box plot data produced by Matjeka &
+#' Fitzmaurice to demonstrate applicability of their process.
+#'
+#' @name box_plots_long
+#' @format A data frame with 12420 rows and 2 variables:
+#'* **Plot**: either the left, lines, normal, right or split boxplot
+#'* **Values**: the corresponding values from each dataset
+#' @references Matejka, J., & Fitzmaurice, G. (2017).
+#' Same Stats, Different Graphs: Generating Datasets with
+#' Varied Appearance and Identical Statistics through Simulated
+#' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
+#' Conference on Human Factors in Computing Systems._
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
+#' @example inst/examples/box_plots.R
+"box_plots_long"
 
 #' Datasaurus Dozen (wide) data
 #'
@@ -57,7 +75,7 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/datasaurus_dozen_wide.R
 "datasaurus_dozen_wide"
 
@@ -76,7 +94,7 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/datasaurus_dozen.R
 "datasaurus_dozen"
 
@@ -98,7 +116,7 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs).#nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/).#nolint
 #' @example inst/examples/simpsons_paradox_wide.R
 "simpsons_paradox_wide"
 
@@ -119,7 +137,7 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/simpsons_paradox.R
 "simpsons_paradox"
 
@@ -138,7 +156,7 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/twelve_from_slant_alternate_long.R
 "twelve_from_slant_alternate_long"
 
@@ -178,7 +196,7 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/twelve_from_slant_alternate_wide.R
 "twelve_from_slant_alternate_wide"
 
@@ -197,7 +215,7 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/twelve_from_slant_long.R
 "twelve_from_slant_long"
 
@@ -237,6 +255,6 @@
 #' Varied Appearance and Identical Statistics through Simulated
 #' Annealing. _CHI 2017 Conference proceedings: ACM SIGCHI
 #' Conference on Human Factors in Computing Systems._
-#' Retrieved from [https://www.autodesk.com/research/publications/same-stats-different-graphs](https://www.autodesk.com/research/publications/same-stats-different-graphs). #nolint
+#' Retrieved from [https://www.research.autodesk.com/publications/same-stats-different-graphs/](https://www.research.autodesk.com/publications/same-stats-different-graphs/). #nolint
 #' @example inst/examples/twelve_from_slant_wide.R
 "twelve_from_slant_wide"

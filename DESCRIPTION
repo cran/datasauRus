@@ -1,10 +1,11 @@
 Package: datasauRus
 Title: Datasets from the Datasaurus Dozen
-Version: 0.1.6
+Version: 0.1.8
 Authors@R: c(
-    person("Rhian", "Davies", , "rhian@jumpingrivers.com", role = c("cre", "aut")),
+    person("Colin", "Gillespie", , "colin@jumpingrivers.com", role = c("cre", "aut")),
     person("Steph", "Locke", , "stephanie.g.locke@gmail.com", role = "aut"),
     person("Alberto", "Cairo", , "alberto.cairo@gmail.com", role = "dtc"),
+    person("Rhian", "Davies", , "statsrhian@gmail.com", role = c("aut")),
     person("Justin", "Matejka", , "Justin.Matejka@autodesk.com", role = "dtc"),
     person("George", "Fitzmaurice", , "George.Fitzmaurice@autodesk.com", role = "dtc"),
     person("Lucy", "D'Agostino McGowan", , "ld.mcgowan@vanderbilt.edu", role = "aut"),
@@ -29,23 +30,25 @@ License: MIT + file LICENSE
 URL: https://github.com/jumpingrivers/datasauRus,
         https://jumpingrivers.github.io/datasauRus/
 BugReports: https://github.com/jumpingrivers/datasauRus/issues
-Depends: R (>= 3.0.0)
-Suggests: dplyr, ggplot2, knitr, rmarkdown, testthat
+Depends: R (>= 3.5.0)
+Suggests: dplyr, ggplot2, knitr, rmarkdown, spelling, testthat
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
+Language: en-US
 NeedsCompilation: no
-Packaged: 2022-05-04 17:23:05 UTC; rhian
-Author: Rhian Davies [cre, aut],
+Packaged: 2024-02-26 17:30:14 UTC; rhian
+Author: Colin Gillespie [cre, aut],
   Steph Locke [aut],
   Alberto Cairo [dtc],
+  Rhian Davies [aut],
   Justin Matejka [dtc],
   George Fitzmaurice [dtc],
   Lucy D'Agostino McGowan [aut],
   Richard Cotton [ctb],
   Tim Book [ctb],
   Jumping Rivers [fnd]
-Maintainer: Rhian Davies <rhian@jumpingrivers.com>
+Maintainer: Colin Gillespie <colin@jumpingrivers.com>
 Repository: CRAN
-Date/Publication: 2022-05-04 23:00:20 UTC
+Date/Publication: 2024-02-26 23:50:26 UTC
