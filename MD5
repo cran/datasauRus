@@ -1,10 +1,10 @@
-33a81a6172da61bd4a97191c5b779596 *DESCRIPTION
+e38891f71889f447e5b21c04e03a35bb *DESCRIPTION
 321bf108f9cf766381c3b6528fe9c028 *LICENSE
 dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
-17620406e77dafa262f70fbaec7c75c7 *NEWS.md
+9aa76dbb19abf0e4aded6c01b59c5dc0 *NEWS.md
 a3d1418862e059273af07c752ae19e33 *R/datasaurus-package.R
 6cf17ce3916901ae659f721b968210f2 *README.md
-b58c0fd6847d61ee0233d649c013c715 *build/vignette.rds
+ddd565242b041b7f63ba2d4cd522d5ce *build/vignette.rds
 97aaca5e8fe9712672ae777b25c74b7c *data/box_plots.rda
 d85093b0f070608f99576de2e18e36b0 *data/box_plots_long.rda
 4451d751dc41dae24f3945ac0bacdf84 *data/datasaurus_dozen.rda
@@ -15,9 +15,9 @@ f207a5aa7289b3d76cef2c408e281f8b *data/simpsons_paradox_wide.rda
 46c00ce7dcee19000f42ebfafb425dab *data/twelve_from_slant_alternate_wide.rda
 fc2fd474bd27b40d7931ca90194ccf55 *data/twelve_from_slant_long.rda
 2c47653dd5a71e335b637c787354e2f7 *data/twelve_from_slant_wide.rda
-94b600d488dc2fc86727fd2aea5fea7d *inst/doc/Datasaurus.R
-c22cc79b6cad6f54bba4ec4e13455908 *inst/doc/Datasaurus.Rmd
-6ffceadcba83620160d6e1405a1c47c7 *inst/doc/Datasaurus.html
+5065e948d0c60638350eed1c8fe8ef13 *inst/doc/Datasaurus.R
+b084f43d556cd85c269963f1595f1bfd *inst/doc/Datasaurus.Rmd
+529f753d7e8c45523edc7c51390fce28 *inst/doc/Datasaurus.html
 48ac16f51026dc4977384c5fedfc44a6 *inst/examples/box_plots.R
 31751721f57c63d5b7322432e61c1240 *inst/examples/datasauRus.R
 99fb6f3b547fb1381c8224b8a7e0f700 *inst/examples/datasaurus_dozen.R
@@ -51,6 +51,6 @@ b52bae4b07f447844927dd0029320f83 *man/twelve_from_slant_alternate_long.Rd
 0ff7496e92cc8e4e1ab667a88af30879 *man/twelve_from_slant_long.Rd
 1f21e2bd7ff325d7f6ce6f440e39e7f6 *man/twelve_from_slant_wide.Rd
 802865609905fc023324731544b95dca *tests/testthat.R
-2b1fc95e5f02094cd03f6d400fcc3ff9 *tests/testthat/test-datasets.R
+5a8c1b400c616ef9b00f6d94cc0c064b *tests/testthat/test-datasets.R
 7d8db04f1d043827183e3e3c744f4a0a *tests/testthat/test-rawfiles.R
-c22cc79b6cad6f54bba4ec4e13455908 *vignettes/Datasaurus.Rmd
+b084f43d556cd85c269963f1595f1bfd *vignettes/Datasaurus.Rmd

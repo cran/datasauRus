@@ -1,9 +1,9 @@
 ## -----------------------------------------------------------------------------
 library(datasauRus)
-if(requireNamespace("dplyr")){
+if (requireNamespace("dplyr")) {
   suppressPackageStartupMessages(library(dplyr))
-  datasaurus_dozen %>% 
-    group_by(dataset) %>% 
+  datasaurus_dozen %>%
+    group_by(dataset) %>%
     summarize(
       mean_x    = mean(x),
       mean_y    = mean(y),
@@ -14,12 +14,12 @@ if(requireNamespace("dplyr")){
 }
 
 ## ----fig.height=12, fig.width=9-----------------------------------------------
-if(requireNamespace("ggplot2")){
+if (requireNamespace("ggplot2")) {
   library(ggplot2)
-  ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset))+
-    geom_point()+
-    theme_void()+
-    theme(legend.position = "none")+
+  ggplot(datasaurus_dozen, aes(x = x, y = y, colour = dataset)) +
+    geom_point() +
+    theme_void() +
+    theme(legend.position = "none") +
     facet_wrap(~dataset, ncol = 3)
 }
 

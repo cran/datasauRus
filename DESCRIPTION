@@ -1,11 +1,11 @@
 Package: datasauRus
 Title: Datasets from the Datasaurus Dozen
-Version: 0.1.8
+Version: 0.1.9
 Authors@R: c(
     person("Colin", "Gillespie", , "colin@jumpingrivers.com", role = c("cre", "aut")),
     person("Steph", "Locke", , "stephanie.g.locke@gmail.com", role = "aut"),
     person("Alberto", "Cairo", , "alberto.cairo@gmail.com", role = "dtc"),
-    person("Rhian", "Davies", , "statsrhian@gmail.com", role = c("aut")),
+    person("Rhian", "Davies", , "statsrhian@gmail.com", role = "aut"),
     person("Justin", "Matejka", , "Justin.Matejka@autodesk.com", role = "dtc"),
     person("George", "Fitzmaurice", , "George.Fitzmaurice@autodesk.com", role = "dtc"),
     person("Lucy", "D'Agostino McGowan", , "ld.mcgowan@vanderbilt.edu", role = "aut"),
@@ -34,11 +34,11 @@ Depends: R (>= 3.5.0)
 Suggests: dplyr, ggplot2, knitr, rmarkdown, spelling, testthat
 VignetteBuilder: knitr
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 7.2.3
 Language: en-US
+LazyData: true
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-02-26 17:30:14 UTC; rhian
+Packaged: 2025-01-23 16:55:48 UTC; colin
 Author: Colin Gillespie [cre, aut],
   Steph Locke [aut],
   Alberto Cairo [dtc],
@@ -51,4 +51,4 @@ Author: Colin Gillespie [cre, aut],
   Jumping Rivers [fnd]
 Maintainer: Colin Gillespie <colin@jumpingrivers.com>
 Repository: CRAN
-Date/Publication: 2024-02-26 23:50:26 UTC
+Date/Publication: 2025-01-23 17:20:02 UTC
